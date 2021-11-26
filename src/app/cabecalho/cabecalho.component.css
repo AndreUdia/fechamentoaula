@@ -1,0 +1,12 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.face{
+    margin-right: 10px;
+}
+
+.cart{
+    justify-self: flex-end;
+    margin: 15px;
+}
