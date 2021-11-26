@@ -1,4 +1,4 @@
-import { Produto } from "../shared/produto.model";
+import { Produto } from "./produto.model";
 
 // obtidos do site fakestoreapi.com
 

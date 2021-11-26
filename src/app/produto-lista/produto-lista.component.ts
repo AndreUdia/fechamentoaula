@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Produto } from '../shared/produto.model';
-import { PRODUTOS } from './produto-mock';
+import { PRODUTOS } from '../shared/produto-mock';
 
 @Component({
   selector: 'app-produto-lista',
