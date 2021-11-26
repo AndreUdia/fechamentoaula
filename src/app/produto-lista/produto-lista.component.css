@@ -1,7 +1,12 @@
 table {
-    width: 100%;
+    width: 90%;
+    align-items: center;
   }
   
   tr.mat-footer-row {
     font-weight: bold;
+  }
+
+  .mat-elevation-z8{
+      margin: 5px;
   }
