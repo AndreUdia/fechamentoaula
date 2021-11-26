@@ -1,8 +1,12 @@
 <div fxLayout="column" fxFlexFill>
     <app-cabecalho></app-cabecalho>
     <div fxFlex>
-        <app-produto-lista></app-produto-lista>
-        <app-produto-vitrine></app-produto-vitrine>
+        <div *ngIf="exibirLista(); else exibiCard">
+            <app-produto-lista></app-produto-lista>
+        </div>
+        <ng-template #exibiCard>
+            <app-produto-vitrine></app-produto-vitrine>
+        </ng-template>
     </div>
     <app-rodape></app-rodape>
 </div>
